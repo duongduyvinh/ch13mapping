@@ -19,11 +19,11 @@
             maxIdle="10"
             maxWaitMillis="10000"
 
-            username="postgres"
-            password="Vinhduong@2006"
+            username="emaildb_0seg_user"
+            password="P79oyO938dF7pE2kcV12YvpIS5gCkAzU"
 
             driverClassName="org.postgresql.Driver"
-            url="jdbc:postgresql://localhost:5432/murach_jpa"
+            url="jdbc:postgresql://dpg-dats23favr4c73eoeb80-a:5432/emaildb_0seg"
     />
 
 </Context>

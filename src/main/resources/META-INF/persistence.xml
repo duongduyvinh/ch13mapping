@@ -12,14 +12,14 @@
 
         <properties>
             <property name="javax.persistence.jdbc.url"
-                      value="jdbc:postgresql://localhost:5432/murach_jpa"/>
+                      value="jdbc:postgresql://dpg-dats23favr4c73eoeb80-a:5432/emaildb_0seg"/>
             <property name="javax.persistence.jdbc.driver"
                       value="org.postgresql.Driver"/>
             <!-- Đổi chữ root thành postgres -->
-            <property name="javax.persistence.jdbc.user" value="postgres"/>
+            <property name="javax.persistence.jdbc.user" value="emaildb_0seg_user"/>
 
             <!-- Đổi chữ sesame thành mật khẩu bạn vừa nhập trong SQL Shell -->
-            <property name="javax.persistence.jdbc.password" value="Vinhduong@2006"/>
+            <property name="javax.persistence.jdbc.password" value="P79oyO938dF7pE2kcV12YvpIS5gCkAzU"/>
             <property name="javax.persistence.schema-generation.database.action"
                       value="create"/>
         </properties>
