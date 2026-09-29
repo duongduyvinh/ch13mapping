@@ -15,6 +15,14 @@ public class ConnectionPool {
             InitialContext ic = new InitialContext();
             dataSource = (DataSource)
                     ic.lookup("java:/comp/env/jdbc/murach");
+            
+            // Tự động tạo bảng trên Render nếu chưa có
+            try (Connection c = dataSource.getConnection();
+                 Statement s = c.createStatement()) {
+                s.execute("CREATE TABLE IF NOT EXISTS \"User\" (\"Email\" VARCHAR(50) PRIMARY KEY, \"FirstName\" VARCHAR(50), \"LastName\" VARCHAR(50))");
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
         } catch (NamingException e) {
             System.out.println(e);
         }
