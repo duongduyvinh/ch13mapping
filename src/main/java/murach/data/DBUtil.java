@@ -1,6 +1,6 @@
 package murach.data;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 import java.sql.*;
 
 public class DBUtil {

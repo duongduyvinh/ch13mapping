@@ -12,28 +12,28 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>8</maven.compiler.target>
-        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
         <junit.version>5.13.2</junit.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>jakarta.enterprise</groupId>
-            <artifactId>jakarta.enterprise.cdi-api</artifactId>
-            <version>4.1.0</version>
+            <groupId>javax.enterprise</groupId>
+            <artifactId>cdi-api</artifactId>
+            <version>2.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>jakarta.ws.rs</groupId>
-            <artifactId>jakarta.ws.rs-api</artifactId>
-            <version>4.0.0</version>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>2.1.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>jakarta.servlet</groupId>
-            <artifactId>jakarta.servlet-api</artifactId>
-            <version>6.1.0</version>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -51,31 +51,25 @@
 
 
            <dependency>
-        <groupId>jakarta.servlet.jsp.jstl</groupId>
-        <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
-        <version>3.0.2</version>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.2</version>
     </dependency>
 
+
+
+    <!-- Java Persistence API (JPA 2.2) -->
     <dependency>
-        <groupId>org.glassfish.web</groupId>
-        <artifactId>jakarta.servlet.jsp.jstl</artifactId>
-        <version>3.0.1</version>
+        <groupId>javax.persistence</groupId>
+        <artifactId>javax.persistence-api</artifactId>
+        <version>2.2</version>
     </dependency>
 
-
-
-    <!-- Jakarta Persistence API -->
-    <dependency>
-        <groupId>jakarta.persistence</groupId>
-        <artifactId>jakarta.persistence-api</artifactId>
-        <version>3.1.0</version>
-    </dependency>
-
-    <!-- EclipseLink JPA -->
+    <!-- EclipseLink JPA (2.7.x uses javax) -->
     <dependency>
         <groupId>org.eclipse.persistence</groupId>
         <artifactId>org.eclipse.persistence.jpa</artifactId>
-        <version>4.0.2</version>
+        <version>2.7.11</version>
     </dependency>
 
     <!-- PostgreSQL JDBC Driver -->

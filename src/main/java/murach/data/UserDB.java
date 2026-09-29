@@ -1,6 +1,6 @@
 package murach.data;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import murach.business.User;
 

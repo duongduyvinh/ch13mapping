@@ -20,9 +20,10 @@
             maxWaitMillis="10000"
 
             username="postgres"
-            password="413561"
+            password="Vinhduong@2006"
 
-            url="jdbc:postgresql://localhost:5432/MurachSQLGateway"
+            driverClassName="org.postgresql.Driver"
+            url="jdbc:postgresql://localhost:5432/murach_jpa"
     />
 
 </Context>
