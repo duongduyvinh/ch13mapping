@@ -23,7 +23,7 @@
             password="P79oyO938dF7pE2kcV12YvpIS5gCkAzU"
 
             driverClassName="org.postgresql.Driver"
-            url="jdbc:postgresql://dpg-dats23favr4c73eoeb80-a:5432/emaildb_0seg"
+            url="jdbc:postgresql://dpg-dats23favr4c73eoeb80-a.singapore-postgres.render.com:5432/emaildb_0seg"
     />
 
 </Context>

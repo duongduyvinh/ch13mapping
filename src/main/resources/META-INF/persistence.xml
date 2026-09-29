@@ -12,7 +12,7 @@
 
         <properties>
             <property name="javax.persistence.jdbc.url"
-                      value="jdbc:postgresql://dpg-dats23favr4c73eoeb80-a:5432/emaildb_0seg"/>
+                      value="jdbc:postgresql://dpg-dats23favr4c73eoeb80-a.singapore-postgres.render.com:5432/emaildb_0seg"/>
             <property name="javax.persistence.jdbc.driver"
                       value="org.postgresql.Driver"/>
             <!-- Đổi chữ root thành postgres -->
